@@ -17,3 +17,5 @@ document.querySelectorAll('a[href^="#"]').forEach(a=>{
     if(el) el.scrollIntoView({behavior:'smooth', block:'start'});
   });
 });
+
+
